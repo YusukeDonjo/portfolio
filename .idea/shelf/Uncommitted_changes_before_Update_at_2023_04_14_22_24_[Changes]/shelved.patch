@@ -1,0 +1,234 @@
+Index: static/css/resume.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/static/css/resume.css b/static/css/resume.css
+new file mode 100644
+--- /dev/null	(date 1681477275026)
++++ b/static/css/resume.css	(date 1681477275026)
+@@ -0,0 +1,151 @@
++body {
++  font-family: 'Open Sans', serif;
++  padding-top: 54px;
++  color: #868e96;
++}
++
++@media (min-width: 992px) {
++  body {
++    padding-top: 0;
++    padding-left: 17rem;
++  }
++}
++
++h1,
++h2,
++h3,
++h4,
++h5,
++h6 {
++  font-family: 'Saira Extra Condensed', serif;
++  font-weight: 700;
++  color: #343a40;
++}
++
++
++h1, h2{
++  text-transform: uppercase;
++}
++
++h1 {
++  font-size: 6rem;
++  line-height: 5.5rem;
++}
++
++h2 {
++  font-size: 3.5rem;
++}
++
++.subheading {
++  text-transform: uppercase;
++  font-weight: 500;
++  font-family: 'Saira Extra Condensed', serif;
++  font-size: 1.35rem;
++}
++
++.list-social-icons a {
++  color: #495057;
++}
++
++.list-social-icons a:hover {
++  color: #BD5D38;
++}
++
++.list-social-icons a .fa-lg {
++  font-size: 1.75rem;
++}
++
++.list-icons {
++  font-size: 3rem;
++}
++
++.list-icons .list-inline-item i:hover {
++  color: #BD5D38;
++}
++
++#sideNav .navbar-nav .nav-item .nav-link {
++  font-weight: 600;
++  text-transform: uppercase;
++}
++
++@media (min-width: 992px) {
++  #sideNav {
++    text-align: center;
++    position: fixed;
++    top: 0;
++    left: 0;
++    display: flex;
++    flex-direction: column;
++    width: 17rem;
++    height: 100vh;
++  }
++  #sideNav .navbar-brand {
++    display: flex;
++    margin: auto auto 0;
++    padding: 0.5rem;
++  }
++  #sideNav .navbar-brand .img-profile {
++    max-width: 10rem;
++    max-height: 10rem;
++    border: 0.5rem solid rgba(255, 255, 255, 0.2);
++  }
++  #sideNav .navbar-collapse {
++    display: flex;
++    align-items: flex-start;
++    flex-grow: 0;
++    width: 100%;
++    margin-bottom: auto;
++  }
++  #sideNav .navbar-collapse .navbar-nav {
++    flex-direction: column;
++    width: 100%;
++  }
++  #sideNav .navbar-collapse .navbar-nav .nav-item {
++    display: block;
++  }
++  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
++    display: block;
++  }
++}
++
++section.resume-section {
++  border-bottom: 1px solid #dee2e6;
++  padding-top: 5rem !important;
++  padding-bottom: 5rem !important;
++}
++
++section.resume-section .resume-item .resume-date {
++  min-width: none;
++}
++
++@media (min-width: 768px) {
++  section.resume-section {
++    min-height: 100vh;
++  }
++  section.resume-section .resume-item .resume-date {
++    min-width: 18rem;
++  }
++}
++
++@media (min-width: 992px) {
++  section.resume-section {
++    padding-top: 3rem !important;
++    padding-bottom: 3rem !important;
++  }
++}
++
++.bg-primary {
++  background-color: #000 !important;
++}
++
++.text-primary {
++  color: #BD5D38 !important;
++}
++
++a {
++  color: #BD5D38;
++}
++
++a:hover, a:focus, a:active {
++  color: #824027;
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"eb6db512-5c53-4549-afba-6a4a66fbfcf0\" name=\"Changes\" comment=\"fix version\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2OGa7RzoGm9WeabvQlcDpnJU6Vk\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"cidr.known.project.marker\": \"true\",\n    \"dart.analysis.tool.window.visible\": \"false\",\n    \"last_opened_file_path\": \"/Users/yusuke/project/portfolio/layouts/markdown\",\n    \"show.migrate.to.gradle.popup\": \"false\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/layouts/markdown\" />\n      <recent name=\"$PROJECT_DIR$/.github/workflows\" />\n      <recent name=\"$PROJECT_DIR$/data\" />\n      <recent name=\"$PROJECT_DIR$/static\" />\n      <recent name=\"$PROJECT_DIR$/content\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/static/js\" />\n      <recent name=\"$PROJECT_DIR$/static/img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"eb6db512-5c53-4549-afba-6a4a66fbfcf0\" name=\"Changes\" comment=\"\" />\n      <created>1681189204102</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1681189204102</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\n      <created>1681211279467</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211279467</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"first commit\">\n      <created>1681211711217</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211711217</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"fix version\">\n      <created>1681211768778</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211768778</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"first commit\" />\n    <MESSAGE value=\"fix version\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix version\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5167770d420ad899a6417b80b3561cff6ee0c00c)
++++ b/.idea/workspace.xml	(date 1681477275051)
+@@ -4,7 +4,8 @@
+     <option name="autoReloadType" value="NONE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="eb6db512-5c53-4549-afba-6a4a66fbfcf0" name="Changes" comment="fix version">
++    <list default="true" id="eb6db512-5c53-4549-afba-6a4a66fbfcf0" name="Changes" comment="wip">
++      <change afterPath="$PROJECT_DIR$/static/css/resume.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -36,17 +37,17 @@
+     "RunOnceActivity.cidr.known.project.marker": "true",
+     "cidr.known.project.marker": "true",
+     "dart.analysis.tool.window.visible": "false",
+-    "last_opened_file_path": "/Users/yusuke/project/portfolio/layouts/markdown",
++    "last_opened_file_path": "/Users/yusuke/project/portfolio/static/css",
+     "show.migrate.to.gradle.popup": "false"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/static/css" />
+       <recent name="$PROJECT_DIR$/layouts/markdown" />
+       <recent name="$PROJECT_DIR$/.github/workflows" />
+       <recent name="$PROJECT_DIR$/data" />
+       <recent name="$PROJECT_DIR$/static" />
+-      <recent name="$PROJECT_DIR$/content" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/static/js" />
+@@ -83,7 +84,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1681211768778</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="wip">
++      <created>1681215021355</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1681215021355</updated>
++    </task>
++    <task id="LOCAL-00005" summary="wip">
++      <created>1681215024615</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1681215024615</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -100,6 +115,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit" />
+     <MESSAGE value="fix version" />
+-    <option name="LAST_COMMIT_MESSAGE" value="fix version" />
++    <MESSAGE value="wip" />
++    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+   </component>
+ </project>
+\ No newline at end of file

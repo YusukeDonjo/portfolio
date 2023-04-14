@@ -34,7 +34,7 @@
           <h3>Socialization</h3>
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
-              {{ if eq .name "Envelope" }}
+              {{ if eq .name "envelope" }}
                 <li class="list-inline-item">
                   <a href="mailto:{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me">
                     <span class="fa-stack fa-lg">

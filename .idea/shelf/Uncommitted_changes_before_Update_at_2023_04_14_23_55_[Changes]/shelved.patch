@@ -1,0 +1,123 @@
+Index: config.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>baseURL = 'http://example.org/'\ntitle = 'My New Hugo Site'\ntheme = \"hugo-resume\"\nlanguageCode = \"en-us\"\nPygmentsCodeFences = true\nPygmentsCodeFencesGuessSyntax = true\nPygmentsStyle = \"monokai\"\nenableGitInfo = false\n\n[params]\naddress = \"Rollinsford, NH\"\nemail = \"email@domain.com\"\nfavicon = \"/favicon.ico\"\nfirstName = \"Eddie\"\nlastName = \"Webb\"\nphone = \"1-555-555-1234\"\nprofileImage = \"img/TechChat.png\"\nshowEducation = true\nshowExperience = true\nshowOpenSource = true\nshowProjects = true\nshowPublications = true\nshowQr = true\nshowSkills = true\n\n[params.google]\n\n[params.google.analytics]\ntrackerID = \"XX-123446-01\"\n\n[[params.handles]]\nlink = \"https://www.linkedin.com/in/edwardwebb/\"\nname = \"LinkedIn\"\n\n[[params.handles]]\nlink = \"https://github.com/eddiewebb/\"\nname = \"GitHub\"\n\n[[params.handles]]\nlink = \"https://bitbucket.org/eddiewebb/\"\nname = \"Bitbucket\"\n\n[[params.handles]]\nlink = \"https://stackoverflow.com/users/story/82880\"\nname = \"Stack Overflow\"\n\n[[params.handles]]\nlink = \"https://keybase.io/edwardawebb\"\nname = \"Keybase\"\n\n[outputs]\nhome = [\"HTML\", \"JSON\"]\n\n[taxonomies]\ntag = \"tags\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/config.toml b/config.toml
+--- a/config.toml	(revision 3373ded1d20c2482f602a98d98c051b02e25b35e)
++++ b/config.toml	(date 1681482139699)
+@@ -9,7 +9,7 @@
+ 
+ [params]
+ address = "Rollinsford, NH"
+-email = "email@domain.com"
++email = "dnjysk@gmail.com"
+ favicon = "/favicon.ico"
+ firstName = "Eddie"
+ lastName = "Webb"
+@@ -28,25 +28,33 @@
+ [params.google.analytics]
+ trackerID = "XX-123446-01"
+ 
+-[[params.handles]]
+-link = "https://www.linkedin.com/in/edwardwebb/"
+-name = "LinkedIn"
++#[[params.handles]]
++#link = "https://www.linkedin.com/in/edwardwebb/"
++#name = "LinkedIn"
+ 
+ [[params.handles]]
+-link = "https://github.com/eddiewebb/"
++link = "https://github.com/YusukeDonjo"
+ name = "GitHub"
+ 
++#[[params.handles]]
++##link = "https://www.instagram.com/yuuuusuke_24/"
++#name = "Gmail"
++
+ [[params.handles]]
+-link = "https://bitbucket.org/eddiewebb/"
+-name = "Bitbucket"
++link = "https://www.instagram.com/yuuuusuke_24/"
++name = "Instagram"
+ 
+ [[params.handles]]
+-link = "https://stackoverflow.com/users/story/82880"
+-name = "Stack Overflow"
++#link = "https://bitbucket.org/eddiewebb/"
++name = "Gmail"
++#
++#[[params.handles]]
++#link = "https://stackoverflow.com/users/story/82880"
++#name = "Stack Overflow"
+ 
+-[[params.handles]]
+-link = "https://keybase.io/edwardawebb"
+-name = "Keybase"
++#[[params.handles]]
++#link = "https://keybase.io/edwardawebb"
++#name = "Keybase"
+ 
+ [outputs]
+ home = ["HTML", "JSON"]
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"NONE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"eb6db512-5c53-4549-afba-6a4a66fbfcf0\" name=\"Changes\" comment=\"fix\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/layouts/markdown/baseof.html\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/static/css/screen.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/css/screen.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2OGa7RzoGm9WeabvQlcDpnJU6Vk\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\n    \"cidr.known.project.marker\": \"true\",\n    \"dart.analysis.tool.window.visible\": \"false\",\n    \"last_opened_file_path\": \"/Users/takuro/project/portfolio/static/css\",\n    \"show.migrate.to.gradle.popup\": \"false\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/static/css\" />\n      <recent name=\"$PROJECT_DIR$/layouts/_default\" />\n      <recent name=\"$PROJECT_DIR$/layouts/markdown\" />\n      <recent name=\"$PROJECT_DIR$/.github/workflows\" />\n      <recent name=\"$PROJECT_DIR$/data\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/static/js\" />\n      <recent name=\"$PROJECT_DIR$/static/img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"eb6db512-5c53-4549-afba-6a4a66fbfcf0\" name=\"Changes\" comment=\"\" />\n      <created>1681189204102</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1681189204102</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\n      <created>1681211279467</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211279467</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"first commit\">\n      <created>1681211711217</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211711217</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"fix version\">\n      <created>1681211768778</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1681211768778</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"first commit\" />\n    <MESSAGE value=\"fix version\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix version\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3373ded1d20c2482f602a98d98c051b02e25b35e)
++++ b/.idea/workspace.xml	(date 1681482946509)
+@@ -6,8 +6,8 @@
+   <component name="ChangeListManager">
+     <list default="true" id="eb6db512-5c53-4549-afba-6a4a66fbfcf0" name="Changes" comment="fix">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/layouts/markdown/baseof.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/screen.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/themes/hugo-resume/layouts/partials/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hugo-resume/layouts/partials/about.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -20,7 +20,8 @@
+         <entry key="$PROJECT_DIR$" value="main" />
+       </map>
+     </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/hugo-resume" />
++    <option name="ROOT_SYNC" value="DONT_SYNC" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -31,17 +32,17 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.cidr.known.project.marker": "true",
+-    "cidr.known.project.marker": "true",
+-    "dart.analysis.tool.window.visible": "false",
+-    "last_opened_file_path": "/Users/takuro/project/portfolio/static/css",
+-    "show.migrate.to.gradle.popup": "false"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/takuro/project/portfolio/static/css&quot;,
++    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/static/css" />
