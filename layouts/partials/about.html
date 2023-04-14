@@ -39,7 +39,7 @@
                   <a href="mailto:{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
+                      <i class="fa-regular {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
                 </li>
