@@ -41,12 +41,8 @@ link = "https://bitbucket.org/eddiewebb/"
 name = "Bitbucket"
 
 [[params.handles]]
-link = "https://stackoverflow.com/users/story/82880"
-name = "Stack Overflow"
-
-[[params.handles]]
-link = "https://keybase.io/edwardawebb"
-name = "Keybase"
+link = "dfre0821@gmail.com"
+name = "Envelope"
 
 [outputs]
 home = ["HTML", "JSON"]
