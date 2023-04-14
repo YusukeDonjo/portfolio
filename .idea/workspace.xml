@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb6db512-5c53-4549-afba-6a4a66fbfcf0" name="Changes" comment="fix version">
+    <list default="true" id="eb6db512-5c53-4549-afba-6a4a66fbfcf0" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/markdown/baseof.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/screen.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,17 +38,17 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/yusuke/project/portfolio/layouts/markdown",
+    "last_opened_file_path": "/Users/takuro/project/portfolio/static/css",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/layouts/_default" />
       <recent name="$PROJECT_DIR$/layouts/markdown" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/content" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js" />
